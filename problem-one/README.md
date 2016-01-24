@@ -10,4 +10,8 @@ Make sure that time complexity isn't larger than the length of both strings - O(
 ### Solution
 The solution is implemented in `stringcheck.py`. TODO: implementation details
 
-The file `teststringcheck.py` tests my implementation for correctness and does some simple benchmarking in order to check the the algorithm is clearly slower than O(m+n).
+The file `teststringcheck.py` tests my implementation for correctness and does some simple benchmarking in order to check the the algorithm isn't clearly slower than O(m+n).
+
+
+
+
