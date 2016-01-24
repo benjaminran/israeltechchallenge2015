@@ -10,14 +10,14 @@ Make sure that time complexity isn't larger than the length of both strings - O(
 ### Solution
 The solution is implemented two different ways in `stringcheck.py`.
 
-Let m be the length of set and n be the length of str.
+Let m be the length of `set` and n be the length of `str`.
 
 
 ##### Solution 1
 
-In the first implementation I construct a hashmap with entries for each character in `set`. This takes O(m) time, and then by amortized analysis the hashmap has O(1) access time. Thus, in the worst case, the hashmap is accessed once for every character in `str` (n * 1 times). Therefore, with O(m) hashmap construction and O(n) `str` checking, the overall algorithm runs in O(n+m) time.
+In the first implementation I construct a hashmap with entries for each character in `set`. This takes O(m) time, and then by amortized analysis the hashmap has O(1) access time. Thus, in the worst case, the hashmap is accessed once for every character in `str` (n * 1 times). Therefore, the overall algorithm runs in O(n+m) time.
 
-This implementation is basically a simple case of finite automaton construction for string matching. This implementation is a Python implementation of a deterministic finite automaton for which the start state and all end states are exactly 1 transition apart. If the goal were to handle more than just the individual characters of `set` and, say, instead treat `set` as a regular expression, my algorithm could use [Thompson's construction](https://en.wikipedia.org/wiki/Thompson%27s_construction) to generate a NFA (and even compress it further into a DFA) and then use that to scan the string. Of course, at that point it would probably be best to use a scanner generator like [Flex](http://flex.sourceforge.net/).
+This implementation is basically a simple case of finite automaton construction for string matching. This implementation is a Python implementation of a deterministic finite automaton for which the start state and all end states are exactly 1 transition apart. If the goal were to handle more than just the individual characters of `set` and, say, instead treat `set` as a regular expression, I could use [Thompson's construction](https://en.wikipedia.org/wiki/Thompson%27s_construction) to generate a NFA (and even compress it further into a DFA) and then use that to scan the string. Of course, at that point it would probably be best to use a scanner generator like [Flex](http://flex.sourceforge.net/).
 
 ##### Solution 2
 
