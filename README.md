@@ -11,7 +11,7 @@ F.e. - str = "IsraelTechChallenge2015!", set="t98765!", the function will return
 Make sure that time complexity isn't larger than the length of both strings - O(m+n). Assume the string only has ASCII characters.
 
 #### Solution
-See [here](#).
+See the [problem-one](https://github.com/benjaminran/israeltechchallenge2015/tree/master/problem-one) directory.
 
 
 ## Problem Two
@@ -23,5 +23,5 @@ In the language of your choosing, Write a function that creates that playlist.
 Allowed: Rand() functions. Not allowed: Shuffle() functions.
 
 #### Solution
-See [here](#).
+See the [problem-two](#) directory.
 
