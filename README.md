@@ -1,4 +1,4 @@
-# Israel Tech Challenge 2105
+# Israel Tech Challenge 2016
 First programming challenge for Israel Tech Challenge 2015 application
 
 ## Problem One

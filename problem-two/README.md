@@ -1,4 +1,4 @@
-# Israel Tech Challenge 2015: Problem Two
+# Israel Tech Challenge 2016: Problem Two
 
 ### Statement
 You have a list of N songs. You want to play them all at a different random way each day.

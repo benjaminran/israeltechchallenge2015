@@ -1,4 +1,4 @@
-# Israel Tech Challenge 2015: Problem One
+# Israel Tech Challenge 2016: Problem One
 
 ### Statement
 In a language of your choosing, write a function that gets a string named str, and a string named set.The function will return the index of the first appearance of any char from set in str.
