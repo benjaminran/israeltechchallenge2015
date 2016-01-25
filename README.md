@@ -6,5 +6,5 @@ See the [problem-one](https://github.com/benjaminran/israeltechchallenge2015/tre
 
 
 ## Problem Two
-See the [problem-two](#) directory.
+See the [problem-two](https://github.com/benjaminran/israeltechchallenge2015/tree/master/problem-two) directory.
 
