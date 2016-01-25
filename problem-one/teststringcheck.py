@@ -54,3 +54,6 @@ def run_re(sstr, sset):
 
 def run_hash(sstr, sset):
     return stringcheck.checkStringForSet(sstr, sset)
+
+if __name__ == "__main__":
+    unittest.main()

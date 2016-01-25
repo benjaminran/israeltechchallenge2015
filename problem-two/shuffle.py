@@ -8,7 +8,7 @@ def knuthshuffle(songs):
    while i<len(songs)-1:
       swap(songs, i, random.randint(i, len(songs)-1))
       i += 1
-   return array
+   return songs
 
 def swap(songs, a, b):
    temp = songs[a]
